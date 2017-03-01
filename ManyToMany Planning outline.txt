@@ -1,0 +1,42 @@
+::client side::
+Home view:
+Displays all movies
+Add movie button.
+
+Add Movie view:
+user adds populates the following properties;
+input box: title
+input box: director
+dropdowninput: associate existing actors
+wrap in ng-submit posts properties to both databases and associates the movies input with the actors input.
+
+App.ts:
+Home state
+AddMovie state
+
+Controllers.ts:
+HomeController needs to ...
+Get List of Movies
+
+AddMovieController needs to ...
+Movie prop to hold the new movie value - including associated actors
+Get List of Actors to populate the dropdown menu
+Get new list of actors to be associated with new movie???
+Post new movie with associated actorId(s)
+
+
+::Server side::
+MoviesController:
+this controller needs to ...
+create a movie object in the movies db
+create an association to the new movie and each input actor in the movieActor db
+
+Get 
+Getbyid
+post;
+	if statement(null, new movie, edit movie)
+
+
+
+::Assignment::
+Add a movie and then associate any existing actors with that movie.
